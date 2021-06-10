@@ -10,7 +10,7 @@
 		9EF86CD126724DBF0060038F /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF86CD026724DBF0060038F /* AddAccount.swift */; };
 		9EF86CD426724F900060038F /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF86CD326724F900060038F /* AccountModel.swift */; };
 		9EF86CE52672500C0060038F /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF86CDC2672500B0060038F /* Data.framework */; };
-		9EF86CEA2672500C0060038F /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF86CE92672500C0060038F /* DataTests.swift */; };
+		9EF86CEA2672500C0060038F /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF86CE92672500C0060038F /* RemoteAddAccountTests.swift */; };
 		9EF86CFA2672504F0060038F /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E893AC126724A1E00A878C7 /* Domain.framework */; };
 		9EF86CFB2672504F0060038F /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E893AC126724A1E00A878C7 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -54,7 +54,7 @@
 		9EF86CDC2672500B0060038F /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF86CDF2672500B0060038F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EF86CE42672500C0060038F /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EF86CE92672500C0060038F /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		9EF86CE92672500C0060038F /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 		9EF86CEB2672500C0060038F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +127,7 @@
 		9EF86CE82672500C0060038F /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EF86CE92672500C0060038F /* DataTests.swift */,
+				9EF86CE92672500C0060038F /* RemoteAddAccountTests.swift */,
 				9EF86CEB2672500C0060038F /* Info.plist */,
 			);
 			path = DataTests;
@@ -302,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EF86CEA2672500C0060038F /* DataTests.swift in Sources */,
+				9EF86CEA2672500C0060038F /* RemoteAddAccountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
