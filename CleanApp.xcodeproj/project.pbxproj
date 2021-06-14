@@ -13,7 +13,6 @@
 		9E01DD192677915400251A17 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E01DD182677915400251A17 /* AccountModelFactory.swift */; };
 		9E01DD2A2677927D00251A17 /* Infra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E01DD212677927C00251A17 /* Infra.framework */; };
 		9E01DD2F2677927D00251A17 /* AlamofireAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E01DD2E2677927D00251A17 /* AlamofireAdapterTests.swift */; };
-		9E01DD312677927D00251A17 /* Infra.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E01DD232677927C00251A17 /* Infra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E01DD442677BAA200251A17 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF86CDC2672500B0060038F /* Data.framework */; };
 		9E01DD452677BAA200251A17 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF86CDC2672500B0060038F /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E01DD492677BAB800251A17 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E01DD0026778FB400251A17 /* TestExtensions.swift */; };
@@ -95,7 +94,6 @@
 		9E01DD0D267790E800251A17 /* HttpClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientSpy.swift; sourceTree = "<group>"; };
 		9E01DD182677915400251A17 /* AccountModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModelFactory.swift; sourceTree = "<group>"; };
 		9E01DD212677927C00251A17 /* Infra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Infra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E01DD232677927C00251A17 /* Infra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Infra.h; sourceTree = "<group>"; };
 		9E01DD242677927C00251A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E01DD292677927D00251A17 /* InfraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E01DD2E2677927D00251A17 /* AlamofireAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapterTests.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 		9E01DD222677927C00251A17 /* Infra */ = {
 			isa = PBXGroup;
 			children = (
-				9E01DD232677927C00251A17 /* Infra.h */,
 				9E01DD242677927C00251A17 /* Info.plist */,
 			);
 			path = Infra;
@@ -327,7 +324,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E01DD312677927D00251A17 /* Infra.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
