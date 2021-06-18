@@ -20,7 +20,10 @@ final class SignUpViewController: UIViewController {
     private func configure() {
         saveButton?.layer.cornerRadius = 5
         saveButton?.addTarget(self, action: #selector(saveButtonTapped), for: .touchUpInside)
+        hideKeyBoardOnTap()
     }
+    
+   
     
     @objc private func saveButtonTapped(){
         signUp?(SignUpViewModel(name: nameTextField?.text, email: emailTextField?.text, password: passwordTextField?.text, passwordConfirmation: passwordConfirmationTextField?.text))
@@ -30,8 +33,10 @@ final class SignUpViewController: UIViewController {
 extension SignUpViewController: LoadingView {
     func display(viewModel: LoadingViewModel) {
         if viewModel.isLoading {
+            view.isUserInteractionEnabled = false
             loadingIndicator?.startAnimating()
         } else {
+            view.isUserInteractionEnabled = true
             loadingIndicator?.stopAnimating()
         }
     }
