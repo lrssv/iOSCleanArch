@@ -17,7 +17,6 @@ class EmailValidatorAdapterTests: XCTestCase {
         XCTAssertTrue(sut.isValid(email: "rodrigo@gmail.com"))
         XCTAssertTrue(sut.isValid(email: "rodrigo@hotmal.com"))
     }
-
 }
 
 extension EmailValidatorAdapterTests {
