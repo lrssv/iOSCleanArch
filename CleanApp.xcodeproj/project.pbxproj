@@ -36,6 +36,7 @@
 		9EE9B049267BBDB500DB4B15 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE3EF9A267A32FF0033C5CC /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EE9B06C267BBF3C00DB4B15 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9B06B267BBF3C00DB4B15 /* SignUpViewController.swift */; };
 		9EE9B082267BBFAE00DB4B15 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE9B081267BBFAE00DB4B15 /* SignUp.storyboard */; };
+		9EE9B0B3267CC89D00DB4B15 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9B0B2267CC89D00DB4B15 /* TestExtensions.swift */; };
 		9EF4B2F9267B8827006AED54 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E01DD182677915400251A17 /* AccountModelFactory.swift */; };
 		9EF4B31B267B9904006AED54 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4B31A267B9904006AED54 /* LoadingView.swift */; };
 		9EF4B328267B9E55006AED54 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4B327267B9E55006AED54 /* SignUpViewModel.swift */; };
@@ -218,6 +219,7 @@
 		9EE9B024267BBCCC00DB4B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE9B06B267BBF3C00DB4B15 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9EE9B081267BBFAE00DB4B15 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		9EE9B0B2267CC89D00DB4B15 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 		9EF4B31A267B9904006AED54 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9EF4B327267B9E55006AED54 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		9EF4B32E267B9EAA006AED54 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
@@ -493,8 +495,7 @@
 			isa = PBXGroup;
 			children = (
 				9EE9B018267BBCCC00DB4B15 /* Info.plist */,
-				9EE9B06B267BBF3C00DB4B15 /* SignUpViewController.swift */,
-				9EE9B081267BBFAE00DB4B15 /* SignUp.storyboard */,
+				9EE9B09D267CC86800DB4B15 /* Scenes */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -502,10 +503,52 @@
 		9EE9B021267BBCCC00DB4B15 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				9EE9B022267BBCCC00DB4B15 /* SignUpViewControllerTests.swift */,
+				9EE9B0B1267CC88D00DB4B15 /* Helpers */,
+				9EE9B0A4267CC87100DB4B15 /* Scenes */,
 				9EE9B024267BBCCC00DB4B15 /* Info.plist */,
 			);
 			path = UITests;
+			sourceTree = "<group>";
+		};
+		9EE9B089267CC81E00DB4B15 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9B06B267BBF3C00DB4B15 /* SignUpViewController.swift */,
+				9EE9B081267BBFAE00DB4B15 /* SignUp.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		9EE9B090267CC83400DB4B15 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9B022267BBCCC00DB4B15 /* SignUpViewControllerTests.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		9EE9B09D267CC86800DB4B15 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9B089267CC81E00DB4B15 /* SignUp */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9EE9B0A4267CC87100DB4B15 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9B090267CC83400DB4B15 /* SignUp */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9EE9B0B1267CC88D00DB4B15 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9B0B2267CC89D00DB4B15 /* TestExtensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		9EF4B321267B9E46006AED54 /* SignUp */ = {
@@ -1101,6 +1144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE9B023267BBCCC00DB4B15 /* SignUpViewControllerTests.swift in Sources */,
+				9EE9B0B3267CC89D00DB4B15 /* TestExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
