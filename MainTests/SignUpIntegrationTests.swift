@@ -6,5 +6,4 @@ class SignUpIntegrationTests: XCTestCase {
         let sut = SignUpComposer.composeControllerWith(addAccount: AddAccountSpy())
         checkMemoryLeak(for: sut)
     }
-
 }
